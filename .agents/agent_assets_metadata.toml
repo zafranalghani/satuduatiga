@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "0Na46-6A_s372yzBJKTb-"
+uri = "file://artifacts/portfolio/public/projects/snapcode.png"
+type = "image"
+title = "Abstract UI mockup snapcode"
+
+[[generated]]
+id = "lA_SohGSCARqJmkpKn2Fo"
+uri = "file://artifacts/portfolio/public/projects/moderne.png"
+type = "image"
+title = "Abstract UI mockup moderne"
+
+[[generated]]
+id = "HY3eIJ86XJxwSH66ashoO"
+uri = "file://artifacts/portfolio/public/projects/aurora.png"
+type = "image"
+title = "Abstract UI mockup aurora"
