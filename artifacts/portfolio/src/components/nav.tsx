@@ -23,9 +23,9 @@ export function Nav() {
   };
 
   const navLinks = [
-    { name: "Work", id: "work" },
-    { name: "About", id: "about" },
-    { name: "Contact", id: "contact" },
+    { name: "Proyek", id: "work" },
+    { name: "Tentang", id: "about" },
+    { name: "Kontak", id: "contact" },
   ];
 
   return (

@@ -20,7 +20,7 @@ export function Contact() {
             transition={{ duration: 0.8 }}
             className="text-6xl md:text-9xl font-black tracking-tighter mb-8"
           >
-            LET'S TALK
+            MARI BICARA
           </motion.h2>
           
           <motion.p
@@ -30,7 +30,7 @@ export function Contact() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl opacity-90 mb-16 max-w-2xl"
           >
-            Currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            Saat ini terbuka untuk peluang baru. Baik jika kamu punya pertanyaan atau sekadar mau menyapa, saya akan berusaha membalas secepatnya!
           </motion.p>
 
           <motion.div 
@@ -59,9 +59,8 @@ export function Contact() {
         </div>
       </div>
 
-      {/* Footer text */}
       <div className="absolute bottom-8 left-0 w-full text-center opacity-50 text-sm font-medium">
-        © {new Date().getFullYear()} Alex Mercer. Crafted with intention.
+        © {new Date().getFullYear()} Alex Mercer. Dibuat dengan sepenuh hati.
       </div>
     </section>
   );

@@ -37,7 +37,7 @@ export function LoadingScreen() {
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1], delay: 0.4 }}
               className="text-primary font-mono text-sm uppercase tracking-widest"
             >
-              Loading Experience...
+              Memuat Pengalaman...
             </motion.p>
           </div>
           

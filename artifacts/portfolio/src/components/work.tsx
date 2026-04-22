@@ -4,22 +4,22 @@ import { ArrowUpRight } from "lucide-react";
 const projects = [
   {
     title: "Snapcode",
-    category: "Web Application",
-    description: "A collaborative code playground with real-time preview and instant sharing capabilities.",
+    category: "Aplikasi Web",
+    description: "Playground kode kolaboratif dengan pratinjau real-time dan berbagi instan.",
     image: "/projects/snapcode.png",
     year: "2024"
   },
   {
     title: "Moderne",
-    category: "Design System",
-    description: "An elegant, comprehensive component library built for scale and high-performance teams.",
+    category: "Sistem Desain",
+    description: "Pustaka komponen yang elegan dan komprehensif, dibangun untuk skala dan tim berperforma tinggi.",
     image: "/projects/moderne.png",
     year: "2023"
   },
   {
     title: "Aurora",
-    category: "Data Platform",
-    description: "Complex financial data visualized through beautiful, accessible interactive dashboards.",
+    category: "Platform Data",
+    description: "Data finansial kompleks divisualisasikan lewat dasbor interaktif yang indah dan mudah diakses.",
     image: "/projects/aurora.png",
     year: "2023"
   }
@@ -32,12 +32,12 @@ export function Work() {
         <div className="mb-20 flex flex-col md:flex-row md:items-end justify-between gap-8">
           <div>
             <h2 className="text-5xl md:text-7xl font-black tracking-tighter">
-              FEATURED<br/>
-              <span className="text-primary">WORK</span>
+              PROYEK<br/>
+              <span className="text-primary">PILIHAN</span>
             </h2>
           </div>
           <p className="text-muted max-w-sm text-lg">
-            A selection of recent projects focusing on deep interaction and refined visual design.
+            Sejumlah proyek terbaru yang berfokus pada interaksi mendalam dan desain visual yang halus.
           </p>
         </div>
 

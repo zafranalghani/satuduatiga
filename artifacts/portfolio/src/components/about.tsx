@@ -7,7 +7,7 @@ export function About() {
     "Tailwind CSS",
     "Framer Motion",
     "WebGL / Three.js",
-    "UI/UX Design"
+    "Desain UI/UX"
   ];
 
   return (
@@ -22,17 +22,17 @@ export function About() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-5xl md:text-7xl font-black tracking-tighter mb-8">
-              DESIGNER <br/>
-              <span className="text-stroke opacity-30">AND</span><br/>
+              DESAINER <br/>
+              <span className="text-stroke opacity-30">DAN</span><br/>
               DEVELOPER<span className="text-primary">.</span>
             </h2>
             
             <div className="space-y-6 text-lg text-muted-foreground">
               <p>
-                I bridge the gap between design and engineering. As a self-taught developer with a deep appreciation for aesthetics, I build interfaces that don't just work—they feel right.
+                Saya menjembatani desain dan teknik. Sebagai developer otodidak yang sangat menghargai estetika, saya membangun antarmuka yang tidak hanya berfungsi—tapi juga terasa pas.
               </p>
               <p>
-                My approach is rooted in the belief that great software is invisible. The micro-interactions, the typographic hierarchy, the physics of the animations—everything exists to serve the experience.
+                Pendekatan saya berakar pada keyakinan bahwa perangkat lunak yang hebat itu nyaris tak terasa. Interaksi mikro, hierarki tipografi, fisika animasi—semuanya ada untuk melayani pengalaman pengguna.
               </p>
             </div>
           </motion.div>
@@ -44,7 +44,7 @@ export function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="bg-accent rounded-3xl p-12 relative overflow-hidden"
           >
-            <h3 className="text-2xl font-bold mb-8">Technical Arsenal</h3>
+            <h3 className="text-2xl font-bold mb-8">Senjata Teknis</h3>
             <ul className="space-y-4">
               {skills.map((skill, index) => (
                 <li key={index} className="flex items-center gap-4">

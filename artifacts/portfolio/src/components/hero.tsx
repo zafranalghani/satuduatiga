@@ -33,7 +33,7 @@ export function Hero() {
                 animate={{ y: 0 }}
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 2.3 }}
               >
-                CRAFTING
+                MERANCANG
               </motion.span>
             </motion.div>
             <motion.div className="overflow-hidden">
@@ -43,7 +43,7 @@ export function Hero() {
                 animate={{ y: 0 }}
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 2.4 }}
               >
-                DIGITAL
+                PENGALAMAN
               </motion.span>
             </motion.div>
             <motion.div className="overflow-hidden">
@@ -53,7 +53,7 @@ export function Hero() {
                 animate={{ y: 0 }}
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 2.5 }}
               >
-                EXPERIENCES<span className="text-primary">.</span>
+                DIGITAL<span className="text-primary">.</span>
               </motion.span>
             </motion.div>
           </h1>
@@ -65,7 +65,7 @@ export function Hero() {
             className="flex flex-col sm:flex-row gap-8 sm:items-center mt-12"
           >
             <p className="text-lg md:text-xl text-muted-foreground max-w-md leading-relaxed">
-              I build bold, opinionated interfaces for the modern web. Obsessed with typography, motion, and interaction.
+              Saya membangun antarmuka web yang berani dan punya karakter. Terobsesi pada tipografi, gerakan, dan interaksi.
             </p>
             
             <button 
@@ -78,7 +78,6 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Decorative background element */}
       <motion.div 
         className="absolute top-1/2 right-[-10%] w-[60vw] h-[60vw] rounded-full bg-primary/5 blur-[120px] -translate-y-1/2 z-0"
         animate={{ 
