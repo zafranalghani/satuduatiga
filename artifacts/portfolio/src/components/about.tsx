@@ -23,7 +23,7 @@ export function About() {
           >
             <h2 className="text-5xl md:text-7xl font-black tracking-tighter mb-8">
               DESAINER <br/>
-              <span className="text-stroke opacity-30">DAN</span><br/>
+              <span className="text-primary">DAN</span><br/>
               DEVELOPER<span className="text-primary">.</span>
             </h2>
             
