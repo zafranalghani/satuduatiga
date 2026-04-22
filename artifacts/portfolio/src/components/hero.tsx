@@ -38,7 +38,7 @@ export function Hero() {
             </motion.div>
             <motion.div className="overflow-hidden">
               <motion.span 
-                className="block text-stroke opacity-50"
+                className="block text-primary"
                 initial={{ y: "100%" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 2.4 }}
