@@ -1,5 +1,4 @@
 uploads = []
-outputs = []
 
 [[generated]]
 id = "0Na46-6A_s372yzBJKTb-"
@@ -18,3 +17,9 @@ id = "HY3eIJ86XJxwSH66ashoO"
 uri = "file://artifacts/portfolio/public/projects/aurora.png"
 type = "image"
 title = "Abstract UI mockup aurora"
+
+[[outputs]]
+id = "LGUAG2rGkPmK_WJBq1KZ7"
+uri = "file://exports/portfolio-template.tar.gz"
+type = "unspecified"
+title = "Portfolio Template (HTML/CSS/JS + assets)"
