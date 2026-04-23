@@ -6,21 +6,21 @@ const projects = [
     title: "Snapcode",
     category: "Aplikasi Web",
     description: "Playground kode kolaboratif dengan pratinjau real-time dan berbagi instan.",
-    image: "/projects/snapcode.png",
+    image: `${import.meta.env.BASE_URL}projects/snapcode.png`,
     year: "2024"
   },
   {
     title: "Moderne",
     category: "Sistem Desain",
     description: "Pustaka komponen yang elegan dan komprehensif, dibangun untuk skala dan tim berperforma tinggi.",
-    image: "/projects/moderne.png",
+    image: `${import.meta.env.BASE_URL}projects/moderne.png`,
     year: "2023"
   },
   {
     title: "Aurora",
     category: "Platform Data",
     description: "Data finansial kompleks divisualisasikan lewat dasbor interaktif yang indah dan mudah diakses.",
-    image: "/projects/aurora.png",
+    image: `${import.meta.env.BASE_URL}projects/aurora.png`,
     year: "2023"
   }
 ];
