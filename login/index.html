@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
-    <form action="" class="login-form">
+    <form action="" class="login-form" id="loginForm">
         <h1 class="login-title">Login</h1>
 
         <div class="input-box">
             <i class="fa-solid fa-user"></i>
-            <input type="text" placeholder="Username">
+            <input type="text" placeholder="Username" required id="username">
         </div>
         <div class="input-box">
             <i class="fa-solid fa-lock"></i>
-            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Password" required id="password">
         </div>
 
         <div class="remember-forgot-box">
@@ -35,6 +35,6 @@
         </p>
     </form>
 
-    <script></script>
+    <script src="js/login.js"></script>
 </body>
 </html>
