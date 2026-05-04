@@ -3,38 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form | CodeByGaurav</title>
+    <title>Testing Login/Signup Form</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
-    <form action="" class="login-form" id="loginForm">
-        <h1 class="login-title">Login</h1>
+  <body>
 
-        <div class="input-box">
-            <i class="fa-solid fa-user"></i>
-            <input type="text" placeholder="Username" required id="username">
-        </div>
-        <div class="input-box">
-            <i class="fa-solid fa-lock"></i>
-            <input type="password" placeholder="Password" required id="password">
-        </div>
+    <!-- credits to the writter @leonam-silva-de-souza -->
+      <div class="container">
+          <div class="form-box login">
+              <form action="" id="loginForm">
+                  <h1>Login</h1>
+                  <div class="input-box">
+                      <input type="text" placeholder="Username" required id="username">
+                      <i class='bx bxs-user'></i>
+                  </div>
+                  <div class="input-box">
+                      <input type="password" placeholder="Password" required id="password">
+                      <i class='bx bxs-lock-alt' ></i>
+                  </div>
+                  <div id="alertBox" class="alert" style="display:none;"></div>
+                  <div class="forgot-link">
+                      <a href="#">Forgot Password?</a>
+                  </div>
+                  <button type="submit" class="btn">Login</button>
+                  <p>or login with social platforms</p>
+                  <div class="social-icons">
+                      <a href="#"><i class='bx bxl-google' ></i></a>
+                      <a href="#"><i class='bx bxl-facebook' ></i></a>
+                      <a href="#"><i class='bx bxl-github' ></i></a>
+                      <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                  </div>
+                  
+              </form>
+          </div>
 
-        <div class="remember-forgot-box">
-            <label for="remember">
-                <input type="checkbox" id="remember">
-                Remember me
-            </label>
-            <a href="#">Forgot Password</a>
-        </div>
+          <div class="form-box register">
+              <form action="" id="registerForm">
+                  <h1>Registration</h1>
+                  <div class="input-box">
+                      <input type="text" placeholder="Username" required id="username">
+                      <i class='bx bxs-user'></i>
+                  </div>
+                  <div class="input-box">
+                      <input type="email" placeholder="Email" required id="email">
+                      <i class='bx bxs-envelope' ></i>
+                  </div>
+                  <div class="input-box">
+                      <input type="password" placeholder="Password" required id="password">
+                      <i class='bx bxs-lock-alt' ></i>
+                  </div>
+                  <p id="message"></p>
+                  <button type="submit" class="btn">Register</button>
+                  <p>or register with social platforms</p>
+                  <div class="social-icons">
+                      <a href="#"><i class='bx bxl-google' ></i></a>
+                      <a href="#"><i class='bx bxl-facebook' ></i></a>
+                      <a href="#"><i class='bx bxl-github' ></i></a>
+                      <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                  </div>
+              </form>
+          </div>
 
-        <button class="login-btn">Login</button>
-        <p class="register">
-            Don't have an account?
-            <a href="register.html">Register</a>
-        </p>
-    </form>
+          <div class="toggle-box">
+              <div class="toggle-panel toggle-left">
+                  <h1>Selamat Datang!</h1>
+                  <p>Tidak punya akun?</p>
+                  <button class="btn register-btn">Register</button>
+              </div>
 
+              <div class="toggle-panel toggle-right">
+                  <h1>Daftar Dulu!</h1>
+                  <p>Sudah punya akun?</p>
+                  <button class="btn login-btn">Login</button>
+              </div>
+          </div>
+          <div id="alertBox" class="alert" style="display:none;"></div>
+      </div>
+
+      <script src="script.js"></script>
+      <script src="js/login.js"></script>
+      <script src="js/register.js"></script>
+  </body>
+</html>
     <script src="js/login.js"></script>
 </body>
 </html>
