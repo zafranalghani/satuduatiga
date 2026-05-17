@@ -756,6 +756,55 @@ section,
   border: 2px solid var(--accent-color);
 }
 
+
+/*--------------------------------------------------------------
+# algan Section
+--------------------------------------------------------------*/
+
+
+.algan .algan-tes{
+  padding: 50px 80px 20px 0px;
+  margin: 0 auto 20px auto;
+  list-style: none;
+}
+
+.algan .algan-tes button{
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 20px 10px 20px;
+  margin: 0 8px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 5px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  font-family: var(--heading-font);
+}
+
+.algan .algan-tes button:hover,
+.algan .algan-tes button .filter-active {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+}
+
+.algan .algan-tes button:first-child {
+  margin-left: 0;
+}
+
+.algan .algan-tes button:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 575px) {
+  .algan .algan-tes button{
+    font-size: 14px;
+    margin: 0 0 10px 0;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
