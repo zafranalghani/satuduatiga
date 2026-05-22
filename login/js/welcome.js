@@ -16,8 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.getElementById("authArea").innerHTML = `
             <button onclick="logout()" class="nav-cta">Logout</button>
-            <button><a href="#portfolio">Porto</a></button>
-
         `;
     }
 
